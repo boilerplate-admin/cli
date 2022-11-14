@@ -1,0 +1,28 @@
+{
+  "name": "@bpstore/cli",
+  "version": "0.0.1",
+  "description": "boilerplate CLI",
+  "main": "main.ts",
+  "repository": "https://github.com/boilerplate-admin/cli.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && cp ./package.json ./lib/ && cp ./README.md ./lib/ && cp ./LICENSE ./lib/"
+  },
+  "keywords": [
+    "cli",
+    "plugin",
+    "boilerplate",
+    "@boilerplate",
+    "bpstore",
+    "@bpstore"
+  ],
+  "author": "boilerplate-admin <info@doittechnology.pl> (https://www.en.doittechnology.pl)",
+  "license": "MIT",
+  "dependencies": {
+    "typescript": "^4.8.4"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
+}
